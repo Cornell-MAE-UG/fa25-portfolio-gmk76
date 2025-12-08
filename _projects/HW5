@@ -10,7 +10,7 @@ images:
   - /assets/images/forces.png
 ---
 
-{% markdown %}
+
 Given Problem:
 - 2D design space of 150cm long and 50cm tall
 - bar of a fixed length
@@ -52,4 +52,3 @@ actuator, and assumed that the Fin was always perpendicular to the bar. With the
 angle of elevation calculated to be 19.47 degrees, I split Fin into x and y 
 components. Isolating just the bar and doing moment equilibrium about the end 
 pin led me to find that the maximum load the actuator could life was 1404.7 N.
-{% endmarkdown %}
