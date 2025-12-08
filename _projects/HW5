@@ -9,37 +9,43 @@ images:
   - /assets/images/horizontal.png
   - /assets/images/forces.png
 ---
-\
+
+
 Given Problem:
 - 2D design space of 150cm long and 50cm tall
 - bar of a fixed length
 - 3 pin supports of which two need to be mounted on the ground
 - linear actuator (picked from an online catalog, use max force values only)
-\
+
+
 Objectives:
 - Design has 2 DOF (rigid body in 2D space)
 - Design a frame/mechanism to lift the maximum possible weight to the highest
 possible height (assuming linear actuator and bar are rigid)
-\
+
+
 My Plan:
 - Find dimensions of linear actuator needed (and overall specifications)
 - Analyze bar at ground and at max height
 - Find distance from pinned bar to base of actuator
 - Find length l of bar and subsections l0 and l1 of bar
 - Find max load
-\
+
+
 Solution:
 Based on space limitations, I chose the IMA33 linear actuator as it was a good
 balance between dimension and force. This gave a base height, hb, of 154 mm 
 plus a stroke length of 152 mm for a maximum extension of 458 mm. This left 42 mm 
 of heigh left for the 500 mm design space, which went into making the bar longer
 to allow for extra weight. 
-\
+
+
 I then set up a system of equations for l, l1, and l0, knowing that l = 1500 mm.
 Just using geometry I was able to solve for l0 = 125.45 mm and l1 = 1374.56 mm.
 Through trigonometry I found that the distance between the actuator and the bar 
 was 1295.93 mm.
-\
+
+
 With these geometric paraters in line, I was able to solve for the maximum weight 
 the actuator could hold. I let Fin = 1446 N since it was the max force of the 
 actuator, and assumed that the Fin was always perpendicular to the bar. With the
