@@ -15,7 +15,7 @@ Given Problem:
 - bar of a fixed length
 - 3 pin supports of which two need to be mounted on the ground
 - linear actuator (picked from an online catalog, use max force values only)
----
+\
 Objectives:
 - Design has 2 DOF (rigid body in 2D space)
 - Design a frame/mechanism to lift the maximum possible weight to the highest
