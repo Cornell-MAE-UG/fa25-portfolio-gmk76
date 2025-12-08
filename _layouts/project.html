@@ -12,7 +12,7 @@ layout: default
   </div>
 {% endif %}
 
-{{ content }}
+{{ content | markdownify }}
 
 <p><strong>Technologies Used</strong>: {{ page.technologies | join: ", " }}</p>
 
