@@ -8,6 +8,7 @@ images:
   - /assets/images/vertical.png
   - /assets/images/horizontal.png
   - /assets/images/forces.png
+  - /assets/images/part2.jpeg
 ---
 
 
@@ -52,3 +53,18 @@ actuator, and assumed that the Fin was always perpendicular to the bar. With the
 angle of elevation calculated to be 19.47 degrees, I split Fin into x and y 
 components. Isolating just the bar and doing moment equilibrium about the end 
 pin led me to find that the maximum load the actuator could life was 1404.7 N.
+
+Part 2 of the homework:
+
+I solved for the reaction pin in terms of the distributed weight w and then 
+found internal shear and moment equations in terms of w. Knowing that moment 
+diagrams must come back to zero at the end I solved for when M = 0 and found
+that that the distributed weight was 1022 N/m. Then I found the maximum 
+moment was 413 N-m from this. 
+
+Next, I found maximum deflection in terms of moment of inertia, I, using the 
+yield stress of structural steel (my chosen material). For part b, I used that
+the maximum deflection was .3 mm to get a moment of inertia value of .4E6 mm^4.
+
+I also found the S value to be 2E3 mm^3. Thus, the closest geometry was C150x19.3.
+
